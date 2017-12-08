@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="2" name="D:/workspace/JD/src/test/java/Case/Login.java">
+        <classes>
+            <class name="Case.Login"/>
+            <class name="Case.UserInfo"/>
+            <class name="Basic.Info.PersonInfo"/>
+            <class name="Basic.Login.Login"/>
+
+           </classes>
+    </test>
+</suite>

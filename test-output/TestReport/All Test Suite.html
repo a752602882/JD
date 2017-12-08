@@ -1,0 +1,755 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               All methods in suite
+               
+               <b>All Test Suite</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">5</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">5</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">100%</div>
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="Basic.Login.Login_login_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Basic.Login.Login_login_byStatus_passed_PASS1_details')">login()</a>
+               </td>
+               <td nowrap="true">10:10:22</td>
+               <td nowrap="true" align="right">29s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Basic.Login.Login_login_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login
+                     </div>
+                     <div>
+                        <b>Signature: </b>login()[pri:0, instance:Basic.Login.Login@2c8d66b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:22
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:52
+                     </div>
+                     <div>
+                        <b>Duration: </b>29s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.UserInfo_init_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.UserInfo_init_byStatus_passed_PASS2_details')">init()</a>
+               </td>
+               <td nowrap="true">10:10:03</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.UserInfo_init_byStatus_passed_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>init
+                     </div>
+                     <div>
+                        <b>Signature: </b>init()[pri:0, instance:Case.UserInfo@7dc36524]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:03
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:09
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.UserInfo_selectAllHobby_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.UserInfo_selectAllHobby_byStatus_passed_PASS3_details')">selectAllHobby()</a>
+               </td>
+               <td nowrap="true">10:10:09</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.UserInfo_selectAllHobby_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>selectAllHobby
+                     </div>
+                     <div>
+                        <b>Signature: </b>selectAllHobby()[pri:0, instance:Case.UserInfo@7dc36524]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:09
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:12
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.UserInfo_setMoreInfo_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.UserInfo_setMoreInfo_byStatus_passed_PASS4_details')">setMoreInfo()</a>
+               </td>
+               <td nowrap="true">10:10:12</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.UserInfo_setMoreInfo_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setMoreInfo
+                     </div>
+                     <div>
+                        <b>Signature: </b>setMoreInfo()[pri:0, instance:Case.UserInfo@7dc36524]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:12
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Basic.Info.PersonInfo_init_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Basic.Info.PersonInfo_init_byStatus_passed_PASS5_details')">init()</a>
+               </td>
+               <td nowrap="true">10:10:15</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Basic.Info.PersonInfo_init_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>init
+                     </div>
+                     <div>
+                        <b>Signature: </b>init()[pri:0, instance:Basic.Info.PersonInfo@35bbe5e8]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:15
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:20
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Basic.Info.PersonInfo_testcookie_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Basic.Info.PersonInfo_testcookie_byStatus_passed_PASS6_details')">testcookie()</a>
+               </td>
+               <td nowrap="true">10:10:20</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Basic.Info.PersonInfo_testcookie_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testcookie
+                     </div>
+                     <div>
+                        <b>Signature: </b>testcookie()[pri:0, instance:Basic.Info.PersonInfo@35bbe5e8]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:20
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:22
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.Login_init_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.Login_init_byStatus_passed_PASS7_details')">init()</a>
+               </td>
+               <td nowrap="true">10:09:51</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.Login_init_byStatus_passed_PASS7_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>init
+                     </div>
+                     <div>
+                        <b>Signature: </b>init()[pri:0, instance:Case.Login@7d417077]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:09:51
+                     </div>
+                     <div>
+                        <b>End time: </b>10:09:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.Login_testLogin_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.Login_testLogin_byStatus_passed_PASS8_details')">testLogin()</a>
+               </td>
+               <td nowrap="true">10:09:58</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.Login_testLogin_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>testLogin()[pri:0, instance:Case.Login@7d417077]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:09:58
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">Basic.Info.PersonInfo</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="Basic.Info.PersonInfo_init_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Basic.Info.PersonInfo_init_byClass_PASS1_details')">init()</a>
+               </td>
+               <td nowrap="true">10:10:15</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Basic.Info.PersonInfo_init_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>init
+                     </div>
+                     <div>
+                        <b>Signature: </b>init()[pri:0, instance:Basic.Info.PersonInfo@35bbe5e8]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:15
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:20
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Basic.Info.PersonInfo_testcookie_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Basic.Info.PersonInfo_testcookie_byClass_PASS2_details')">testcookie()</a>
+               </td>
+               <td nowrap="true">10:10:20</td>
+               <td nowrap="true" align="right">1s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Basic.Info.PersonInfo_testcookie_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testcookie
+                     </div>
+                     <div>
+                        <b>Signature: </b>testcookie()[pri:0, instance:Basic.Info.PersonInfo@35bbe5e8]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:20
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:22
+                     </div>
+                     <div>
+                        <b>Duration: </b>1s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">Basic.Login.Login</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="Basic.Login.Login_login_byClass_PASS1_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Basic.Login.Login_login_byClass_PASS1_details')">login()</a>
+               </td>
+               <td nowrap="true">10:10:22</td>
+               <td nowrap="true" align="right">29s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Basic.Login.Login_login_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>login
+                     </div>
+                     <div>
+                        <b>Signature: </b>login()[pri:0, instance:Basic.Login.Login@2c8d66b2]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:22
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:52
+                     </div>
+                     <div>
+                        <b>Duration: </b>29s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">Case.Login</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="Case.Login_init_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.Login_init_byClass_PASS1_details')">init()</a>
+               </td>
+               <td nowrap="true">10:09:51</td>
+               <td nowrap="true" align="right">6s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.Login_init_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>init
+                     </div>
+                     <div>
+                        <b>Signature: </b>init()[pri:0, instance:Case.Login@7d417077]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:09:51
+                     </div>
+                     <div>
+                        <b>End time: </b>10:09:58
+                     </div>
+                     <div>
+                        <b>Duration: </b>6s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.Login_testLogin_byClass_PASS2_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.Login_testLogin_byClass_PASS2_details')">testLogin()</a>
+               </td>
+               <td nowrap="true">10:09:58</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.Login_testLogin_byClass_PASS2_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>testLogin
+                     </div>
+                     <div>
+                        <b>Signature: </b>testLogin()[pri:0, instance:Case.Login@7d417077]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:09:58
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:03
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">Case.UserInfo</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="Case.UserInfo_init_byClass_PASS1_row"
+                class="testMethodStatusPASS testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.UserInfo_init_byClass_PASS1_details')">init()</a>
+               </td>
+               <td nowrap="true">10:10:03</td>
+               <td nowrap="true" align="right">5s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.UserInfo_init_byClass_PASS1_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>init
+                     </div>
+                     <div>
+                        <b>Signature: </b>init()[pri:0, instance:Case.UserInfo@7dc36524]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:03
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:09
+                     </div>
+                     <div>
+                        <b>Duration: </b>5s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.UserInfo_selectAllHobby_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.UserInfo_selectAllHobby_byClass_PASS2_details')">selectAllHobby()</a>
+               </td>
+               <td nowrap="true">10:10:09</td>
+               <td nowrap="true" align="right">3s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.UserInfo_selectAllHobby_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>selectAllHobby
+                     </div>
+                     <div>
+                        <b>Signature: </b>selectAllHobby()[pri:0, instance:Case.UserInfo@7dc36524]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:09
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:12
+                     </div>
+                     <div>
+                        <b>Duration: </b>3s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="Case.UserInfo_setMoreInfo_byClass_PASS3_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('Case.UserInfo_setMoreInfo_byClass_PASS3_details')">setMoreInfo()</a>
+               </td>
+               <td nowrap="true">10:10:12</td>
+               <td nowrap="true" align="right">2s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="Case.UserInfo_setMoreInfo_byClass_PASS3_details" class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>setMoreInfo
+                     </div>
+                     <div>
+                        <b>Signature: </b>setMoreInfo()[pri:0, instance:Case.UserInfo@7dc36524]
+                     </div>
+                     <div>
+                        <b>Start time: </b>10:10:12
+                     </div>
+                     <div>
+                        <b>End time: </b>10:10:15
+                     </div>
+                     <div>
+                        <b>Duration: </b>2s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>
