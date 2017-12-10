@@ -3,13 +3,10 @@ package Pro;
 import Handle.MainPageHandle;
 import Unit.BaseDriver;
 import Unit.ProUnit;
-import org.openqa.selenium.WebElement;
-import org.testng.annotations.Test;
+import Unit.SelectionSort;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Properties;
 
 public class MainPagePro {
 
@@ -27,22 +24,37 @@ public class MainPagePro {
     /**
      * 在搜索框输入文字，检验返回值是否和数据库匹配
      */
-    public  void  serachIsEqualsData(){
-
-        List<String> serachValue = new ArrayList<>();
+    public boolean serachIsEqualsData(){
+        String[] serachValue=null;
+        String[]  data ;
         mph.moveToSerach();
         mph.setSerachText("胡");
         if (mph.getSerachReturnEelementSize()>0){
            serachValue=mph.getSerachReturnListValue();
 
             ProUnit prop  =new ProUnit("search.properties");
-            String[]  data = prop.getPro("name").split(">");
-            for(int i=0;i< data.length;i++)
-                 System.out.print(data[i]);
+             data=prop.getPro("name").split(">");
+
+            List<String> tmp = new ArrayList<String>();
+            for(String str:serachValue){
+                if (!str.equals(""))
+                    tmp.add(str);
+            }
+            serachValue= tmp.toArray(new String[0]);
+
+
+            //对两个数组排序
+            SelectionSort.sort(data);
+            SelectionSort.sort(serachValue);
+            if (data==serachValue) {
+                System.out.print("数组值相等");
+                return true;
+            }
 
             }
 
 
+        return false;
     }
 
 

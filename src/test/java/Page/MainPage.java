@@ -2,7 +2,6 @@ package Page;
 
 import Unit.BaseDriver;
 import Unit.GetByLocator;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
@@ -46,4 +45,11 @@ public class MainPage extends  BasePage {
         return elements(element,GetByLocator.getByLocator_v4("li"));
     }
 
+
+    /**
+     * 获得照片查询按钮element
+     */
+    public WebElement getPhotoSearchButtonElement(){
+      return  element_v3(GetByLocator.getByLocator_v4("photoSearchBtn"));
+    }
 }

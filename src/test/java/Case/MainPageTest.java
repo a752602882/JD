@@ -3,6 +3,7 @@ package Case;
 import Page.MainPage;
 import Pro.MainPagePro;
 import Unit.BaseDriver;
+import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -26,6 +27,7 @@ public class MainPageTest extends CaseBase{
 
     @Test
     public  void  testSerach(){
-        mpp.serachIsEqualsData();
+
+       Assert.assertEquals(true,mpp.serachIsEqualsData(),"读取文件和搜索结果返回不一致");
     }
 }

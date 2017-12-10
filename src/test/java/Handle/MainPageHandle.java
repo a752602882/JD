@@ -4,7 +4,6 @@ import Page.MainPage;
 import Unit.BaseDriver;
 import org.openqa.selenium.WebElement;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MainPageHandle {
@@ -62,16 +61,25 @@ public class MainPageHandle {
     /**
      * 获得搜索关键字返回的提示值(数组)
      */
-    public List<String> getSerachReturnListValue(){
-      List<String> serachValue = new ArrayList<>();
+    public String[] getSerachReturnListValue(){
 
-        if (liElement.size()>0){
-         for (int i = 0;i<liElement.size();i++) {
-             serachValue.add(  mainPage.getPropertyValue(liElement.get(i),"title"));
+        int size = liElement.size();
+        if (size>0){
+            String[] serach = new String[size];
+         for (int i = 0;i<size;i++) {
+             serach[i]= mainPage.getPropertyValue(liElement.get(i),"title");
          }
-         return serachValue;
+
+         return serach;
         }
         return null;
+    }
+
+    /**
+     * 点击搜索照片按钮
+     */
+    public  void clickPhotoButton(){
+      mainPage.click( mainPage.getPhotoSearchButtonElement());
     }
 
 }
