@@ -82,4 +82,11 @@ public class MainPageHandle {
       mainPage.click( mainPage.getPhotoSearchButtonElement());
     }
 
+
+    /**
+     * 设置上传图片搜索
+     */
+    public  void setSerachFileUp(){
+        mainPage.setText(mainPage.getUpSearchfile(),"C:\\Users\\Administrator\\Desktop\\用例思路\\检查用.jpg");
+    }
 }

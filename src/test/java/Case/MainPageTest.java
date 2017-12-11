@@ -30,4 +30,8 @@ public class MainPageTest extends CaseBase{
 
        Assert.assertEquals(true,mpp.serachIsEqualsData(),"读取文件和搜索结果返回不一致");
     }
+    @Test
+    public  void testSerachUpFile(){
+        mpp.serachUp();
+    }
 }

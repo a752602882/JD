@@ -52,4 +52,11 @@ public class MainPage extends  BasePage {
     public WebElement getPhotoSearchButtonElement(){
       return  element_v3(GetByLocator.getByLocator_v4("photoSearchBtn"));
     }
+
+    /**
+     * 搜索文件上传
+     */
+    public WebElement getUpSearchfile(){
+        return element_v3(GetByLocator.getByLocator_v4("upload-trigger"));
+    }
 }

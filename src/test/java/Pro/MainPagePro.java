@@ -5,6 +5,9 @@ import Unit.BaseDriver;
 import Unit.ProUnit;
 import Unit.SelectionSort;
 
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -57,5 +60,39 @@ public class MainPagePro {
         return false;
     }
 
+
+    /**
+     * 检验搜索查询功能
+     */
+    public void serachUp()  {
+        mph.clickPhotoButton();
+
+        //方法2：推荐,使用第三方插件获得元素，设计脚本后，制作成exe文件
+
+        try {
+            Runtime exe = Runtime.getRuntime();
+            exe.exec("openFile.exe");
+        } catch (IOException e) {
+            System.out.println("Error to run the exe");
+            e.printStackTrace();
+        }
+
+       /*
+        方法1
+        mph.setSerachFileUp();
+        try {
+            pressKeyEvent(KeyEvent.VK_ESCAPE);
+        } catch (AWTException e) {
+            e.printStackTrace();
+        }
+        */
+    }
+
+    //按物理按键
+    public static void pressKeyEvent(int keycode) throws AWTException {
+        Robot robot = new Robot();
+//      robot.keyPress(KeyEvent.VK_ENTER);//按下enter键
+        robot.keyPress(keycode);
+    }
 
 }
