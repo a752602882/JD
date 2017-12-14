@@ -18,7 +18,7 @@ public class MainPageTest extends CaseBase{
          driver = InitDriver("chrome");
          mpp= new MainPagePro(driver);
          driver.get("https://www.jd.com/");
-         driver.setSleep();
+         driver.setSleep(10);
      }
 
     /**
@@ -30,6 +30,13 @@ public class MainPageTest extends CaseBase{
 
        Assert.assertEquals(true,mpp.serachIsEqualsData(),"读取文件和搜索结果返回不一致");
     }
+
+    @Test
+    public  void  testSerach_ReadExcel(){
+
+        Assert.assertEquals(true,mpp.serachIsEqualsDataFromExecl("serachHistoryt.xlsx","Sheet1"),"读取文件和搜索结果返回不一致");
+    }
+
     @Test
     public  void testSerachUpFile(){
         mpp.serachUp();

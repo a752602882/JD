@@ -2,6 +2,7 @@ package Pro;
 
 import Handle.MainPageHandle;
 import Unit.BaseDriver;
+import Unit.POIUtil;
 import Unit.ProUnit;
 import Unit.SelectionSort;
 
@@ -61,6 +62,31 @@ public class MainPagePro {
     }
 
 
+    /**
+     * 在输入框中输入 “rx”  读取ecexc表中数据对照
+     */
+    public boolean serachIsEqualsDataFromExecl(String path,String sheetName){
+        String[] serachValue=null;
+        mph.moveToSerach();
+        mph.setSerachText("rx");
+        if (mph.getSerachReturnEelementSize()>0) {
+            serachValue = mph.getSerachReturnListValue();
+            Object[][] results= POIUtil.readExcel(path,sheetName);
+
+            String[] readValue = new String[results.length];
+            for (int i = 0 ;i<results.length;i++){
+               readValue[i]=  results[i][0].toString();
+            }
+             SelectionSort.sort(readValue);
+             SelectionSort.sort(serachValue);
+
+            if (readValue==serachValue) {
+                System.out.print("数组值相等");
+                return true;
+            }
+        }
+        return  false;
+    }
     /**
      * 检验搜索查询功能
      */

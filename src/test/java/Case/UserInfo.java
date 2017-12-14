@@ -19,7 +19,7 @@ public class UserInfo extends  CaseBase {
         uipp = new UserInfoPagePro(driver);
         cookie =new HandleCookie(driver);
         cookie.setCookie();
-        driver.setSleep();
+        driver.setSleep(10);
     }
 
     @Test

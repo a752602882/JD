@@ -27,7 +27,7 @@ public class Login extends CaseBase {
         myInfoPagePro = new MyInfoPagePro(driver);
         driver.get("https://passport.jd.com/new/login.aspx");
         // getLoginHome();
-        driver.setSleep();
+        driver.setSleep(10);
     }
 
 

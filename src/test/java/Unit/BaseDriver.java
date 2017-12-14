@@ -43,8 +43,8 @@ public class BaseDriver  {
     /**
      * 设置超时时间
      */
-    public  void setSleep(){
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+    public  void setSleep(int time){
+        driver.manage().timeouts().implicitlyWait(time, TimeUnit.SECONDS);
     }
 
     /**

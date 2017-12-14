@@ -28,7 +28,7 @@ public class PersonInfo {
     }
     @Test
     public void testcookie(){
-        driver.setSleep();
+        driver.setSleep(10);
         driver.get("https://i.jd.com/user/info");
 
 

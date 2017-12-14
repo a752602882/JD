@@ -42,6 +42,8 @@ public class BasePage {
         element.click();
     }
 
+
+
     /**
      * 设置值
      */
@@ -117,5 +119,10 @@ public class BasePage {
         return element.getAttribute(prop);
     }
 
-
+    /**
+     * 清空输入值
+     */
+    public void clear(WebElement element){
+        element.clear();
+    }
 }
