@@ -1,107 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026ed2b4-280c-42bf-8c1b-2c025831405f" name="Default" comment="（1）reportNG报告整合&#10;（2）移除testng报告&#10;（3）写入cookie到cookie.properties中">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quan.xlsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_velocity_velocity_1_7.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/Module/Quan.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/saxon-8.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/Module/quan.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__workspace_JD_src_test_java_Case_Login.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__workspace_JD_src_test_java_Case_Login.java.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__workspace_JD_src_test_java_Case_UserInfo.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/All Test Suite/D__workspace_JD_src_test_java_Case_UserInfo.java.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Default Suite/JD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/Default Suite/JD.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/All Test Suite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/All Test Suite_D" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/All Test Suite_groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/Default Suite.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/Default Suite_JD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/Default Suite_groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/navigation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/overview-chart.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/overview.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/reporterOutput.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/TestReport/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/bullet_point.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/collapseall.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/emailable-report.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/failed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/jquery-1.7.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Basic.Info.PersonInfo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Basic.Login.Login.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Case.Login.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Case.UserInfo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/D__workspace_JD_src_test_java_Case_Login.java.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/D__workspace_JD_src_test_java_Case_UserInfo.java.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/All Test Suite/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/JD.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/old/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/passed.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/skipped.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-reports.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-results.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng-results.xsl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test-output/testng.css" afterPath="" />
+    <list default="true" id="026ed2b4-280c-42bf-8c1b-2c025831405f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cookie.properties" afterPath="$PROJECT_DIR$/cookie.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/element.properties" afterPath="$PROJECT_DIR$/element.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log.log" afterPath="$PROJECT_DIR$/log/log.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case/CouponsPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/Case/CouponsPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case/Login.java" afterPath="$PROJECT_DIR$/src/test/java/Case/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case/MainPageTest.java" afterPath="$PROJECT_DIR$/src/test/java/Case/MainPageTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case/RegisterTest.java" afterPath="$PROJECT_DIR$/src/test/java/Case/RegisterTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Case/UserInfo.java" afterPath="$PROJECT_DIR$/src/test/java/Case/UserInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Handle/CouponsPageHandle.java" afterPath="$PROJECT_DIR$/src/test/java/Handle/CouponsPageHandle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Page/BasePage.java" afterPath="$PROJECT_DIR$/src/test/java/Page/BasePage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Page/CouponsPage.java" afterPath="$PROJECT_DIR$/src/test/java/Page/CouponsPage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Pro/CouponsPagePro.java" afterPath="$PROJECT_DIR$/src/test/java/Pro/CouponsPagePro.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Unit/DataBase.java" afterPath="$PROJECT_DIR$/src/test/java/Unit/DataBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Unit/HandleCookie.java" afterPath="$PROJECT_DIR$/src/test/java/Unit/HandleCookie.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Unit/POIUtil.java" afterPath="$PROJECT_DIR$/src/test/java/Unit/POIUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/Unit/ProUnit.java" afterPath="$PROJECT_DIR$/src/test/java/Unit/ProUnit.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -128,8 +30,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="200">
+              <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -141,47 +43,47 @@
             <state relative-caret-position="-684">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1513929390168" expanded="true" signature="90810:90877" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="90810:90895" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="90810:90908" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="90810:90923" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="90958:93570" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="90971:93555" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91025:91320" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91044:91305" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91107:91285" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91147:91251" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91168:91229" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91370:91684" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91389:91669" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91466:91649" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91506:91615" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91527:91593" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91735:92096" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91754:92081" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91883:92061" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91923:92027" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="91944:92005" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92139:92445" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92158:92430" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92232:92410" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92272:92376" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92293:92354" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92496:92806" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92515:92791" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92588:92771" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92628:92737" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92649:92715" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92841:93147" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92860:93132" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92934:93112" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92974:93078" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="92995:93056" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="93199:93541" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="93218:93526" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="93323:93506" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="93363:93472" ph="..." />
-                <marker date="1513929390168" expanded="true" signature="93384:93450" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="90965:91007" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="90965:91025" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="90965:91038" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="90965:91053" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91088:93700" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91101:93685" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91155:91450" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91174:91435" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91237:91415" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91277:91381" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91298:91359" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91500:91814" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91519:91799" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91596:91779" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91636:91745" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91657:91723" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91865:92226" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="91884:92211" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92013:92191" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92053:92157" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92074:92135" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92269:92575" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92288:92560" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92362:92540" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92402:92506" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92423:92484" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92626:92936" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92645:92921" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92718:92901" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92758:92867" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92779:92845" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92971:93277" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="92990:93262" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93064:93242" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93104:93208" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93125:93186" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93329:93671" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93348:93656" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93453:93636" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93493:93602" ph="..." />
+                <marker date="1513930164267" expanded="true" signature="93514:93580" ph="..." />
               </folding>
             </state>
           </provider>
@@ -341,8 +243,8 @@
         <option value="$PROJECT_DIR$/cookie.properties" />
         <option value="$PROJECT_DIR$/src/test/java/Module/Quan.java" />
         <option value="$PROJECT_DIR$/src/test/java/Unit/DataBase.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -854,7 +756,7 @@
       <workItem from="1513838215795" duration="1116000" />
       <workItem from="1513840498334" duration="4381000" />
       <workItem from="1513849463447" duration="10423000" />
-      <workItem from="1513908281973" duration="5425000" />
+      <workItem from="1513908281973" duration="6148000" />
     </task>
     <task id="LOCAL-00001" summary="使用exe 操作winUI元素">
       <created>1512988457176</created>
@@ -927,7 +829,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="295781000" />
+    <option name="totallyTimeSpent" value="296504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1471,55 +1373,55 @@
         <state relative-caret-position="-684">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1513929390168" expanded="true" signature="90810:90877" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="90810:90895" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="90810:90908" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="90810:90923" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="90958:93570" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="90971:93555" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91025:91320" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91044:91305" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91107:91285" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91147:91251" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91168:91229" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91370:91684" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91389:91669" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91466:91649" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91506:91615" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91527:91593" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91735:92096" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91754:92081" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91883:92061" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91923:92027" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="91944:92005" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92139:92445" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92158:92430" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92232:92410" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92272:92376" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92293:92354" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92496:92806" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92515:92791" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92588:92771" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92628:92737" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92649:92715" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92841:93147" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92860:93132" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92934:93112" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92974:93078" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="92995:93056" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="93199:93541" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="93218:93526" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="93323:93506" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="93363:93472" ph="..." />
-            <marker date="1513929390168" expanded="true" signature="93384:93450" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="90965:91007" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="90965:91025" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="90965:91038" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="90965:91053" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91088:93700" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91101:93685" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91155:91450" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91174:91435" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91237:91415" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91277:91381" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91298:91359" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91500:91814" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91519:91799" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91596:91779" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91636:91745" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91657:91723" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91865:92226" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="91884:92211" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92013:92191" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92053:92157" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92074:92135" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92269:92575" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92288:92560" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92362:92540" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92402:92506" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92423:92484" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92626:92936" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92645:92921" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92718:92901" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92758:92867" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92779:92845" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92971:93277" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="92990:93262" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93064:93242" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93104:93208" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93125:93186" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93329:93671" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93348:93656" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93453:93636" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93493:93602" ph="..." />
+            <marker date="1513930164267" expanded="true" signature="93514:93580" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="23" column="19" lean-forward="false" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
       </provider>

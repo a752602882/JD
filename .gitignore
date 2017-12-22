@@ -15,7 +15,10 @@ log
 *.ipr
 *.iws
 
+
+
 #不要过滤
 
 !lib/
 
+.idea/workspace.xml
