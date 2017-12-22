@@ -1,9 +1,9 @@
 
 #######过滤掉的文件夹############
 target
-out
 
-
+test-output
+log
 
 # 指定过滤的文件
 *.apk
@@ -17,57 +17,5 @@ out
 
 #不要过滤
 
-!lib/saxon-8.7.jar
+!lib/
 
-
-.idea/libraries/Maven__cglib_cglib_nodep_2_1_3.xml
-.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml
-.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml
-.idea/libraries/Maven__com_google_guava_guava_19_0.xml
-.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml
-.idea/libraries/Maven__commons_io_commons_io_2_4.xml
-.idea/libraries/Maven__io_netty_netty_3_5_2_Final.xml
-.idea/libraries/Maven__net_sourceforge_cssparser_cssparser_0_9_16.xml
-.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_2_18.xml
-.idea/libraries/Maven__net_sourceforge_htmlunit_htmlunit_core_js_2_17.xml
-.idea/libraries/Maven__net_sourceforge_nekohtml_nekohtml_1_9_22.xml
-.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml
-.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml
-.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_1.xml
-.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_3.xml
-.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5.xml
-.idea/libraries/Maven__org_apache_poi_poi_3_16.xml
-.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_16.xml
-.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_16.xml
-.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml
-.idea/libraries/Maven__org_eclipse_jetty_jetty_io_9_2_12_v20150709.xml
-.idea/libraries/Maven__org_eclipse_jetty_jetty_util_9_2_12_v20150709.xml
-.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_api_9_2_12_v20150709.xml
-.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_client_9_2_12_v20150709.xml
-.idea/libraries/Maven__org_eclipse_jetty_websocket_websocket_common_9_2_12_v20150709.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_htmlunit_driver_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_leg_rc_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_2_52_0.xml
-.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_2_52_0.xml
-.idea/libraries/Maven__org_springframework_spring_aop_4_3_10_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_beans_4_3_10_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_context_4_3_10_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_core_4_3_10_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_expression_4_3_10_RELEASE.xml
-.idea/libraries/Maven__org_springframework_spring_web_4_3_10_RELEASE.xml
-.idea/libraries/Maven__org_webbitserver_webbit_0_4_14.xml
-.idea/libraries/Maven__stax_stax_api_1_0_1.xml
-.idea/workspace.xml
-log/log.log.2017-12-08
-log/log.log.2017-12-12
-log/log.log.2017-12-13
-src/main/java/
-.idea/libraries/Maven__mysql_mysql_connector_java_5_1_40.xml
-log/log.log.2017-12-14

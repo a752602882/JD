@@ -3,6 +3,7 @@ package Case;
 import Pro.UserInfoPagePro;
 import Unit.BaseDriver;
 import Unit.HandleCookie;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -18,6 +19,7 @@ public class UserInfo extends  CaseBase {
         driver.get("https://i.jd.com/user/info");
         uipp = new UserInfoPagePro(driver);
         cookie =new HandleCookie(driver);
+
         cookie.setCookie();
         driver.setSleep(10);
     }
@@ -34,5 +36,11 @@ public class UserInfo extends  CaseBase {
     public void setMoreInfo(){
         driver.get("https://i.jd.com/user/info");
         uipp.JumpAndSetMoreInfo("500223199206147716");
+    }
+
+
+    @AfterClass
+    public void end(){
+        driver.stop();
     }
 }

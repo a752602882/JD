@@ -30,10 +30,17 @@ public class HandleCookie {
      * 获取cookie
      * */
     public void writeCookie(){
+
         Set<Cookie> cookies  = driver.getCookie();
         for (Cookie cookie:cookies){
             if (cookie.getName().equals("thor")){
-                proUnit.WritePro(cookie.getName(),cookie.getValue());
+                String cookieValue=cookie.getValue();
+                proUnit.writePro(cookie.getName(),cookie.getValue());
+                proUnit.writeFile("cookie.properties");
             }
         }
-    }}
+    }
+
+
+
+}

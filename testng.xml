@@ -1,13 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" parallel="true" thread-count="2" name="D:/workspace/JD/src/test/java/Case/Login.java">
+<suite name="测试">
+<listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter" />
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+</listeners>
+    <!--verbose是日志级别（0-10） preserve-order是指顺序执行-->
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="1" name="登录功能">
         <classes>
             <class name="Case.Login"/>
-            <class name="Case.UserInfo"/>
-            <class name="Basic.Info.PersonInfo"/>
             <class name="Basic.Login.Login"/>
-
            </classes>
     </test>
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="1" name="注册功能">
+        <classes>
+            <class name="Case.RegisterTest"/>
+            <class name="Case.RegisterTest"/>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true" parallel="true" thread-count="1" name="其他功能">
+        <classes>
+            <class name="Case.UserInfo"/>
+            <class name="Basic.Info.PersonInfo"/>
+            <class name="Case.MainPageTest"/>
+            <class name="Case.RegisterTest"/>
+            <class name="Case.RegisterTest"/>
+        </classes>
+    </test>
+
 </suite>

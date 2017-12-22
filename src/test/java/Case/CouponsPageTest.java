@@ -3,6 +3,8 @@ package Case;
 import Pro.CouponsPagePro;
 import Pro.MainPagePro;
 import Unit.BaseDriver;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -21,6 +23,13 @@ public class CouponsPageTest extends CaseBase {
 
     @Test
     public void autoCoupons(){
-        cpp.autoGetCoupons();  //     .//*[@id='quanlist']/div[6]/div[4]/div/a/span
+      boolean isSuccess =  cpp.autoGetCoupons();  //
+        Assert.assertEquals(isSuccess,true,"写入execl文件不成功>>>>>>>>>>>");
+    }
+
+
+    @AfterClass
+    public void end(){
+        driver.stop();
     }
 }

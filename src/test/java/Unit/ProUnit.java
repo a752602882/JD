@@ -2,7 +2,9 @@ package Unit;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.io.InputStream;
+import java.util.Date;
 import java.util.Properties;
 
 public class ProUnit {
@@ -32,6 +34,20 @@ public class ProUnit {
         }
       return properties;
     }
+
+    /**
+     *  写入配置文件
+     */
+    public  void  writeFile(String path){
+        try {
+            FileOutputStream out = new FileOutputStream(path);
+            properties.store(out,new Date().toString());
+            out.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+          }
+
     /**
      * 解析配置文件
      */
@@ -39,7 +55,7 @@ public class ProUnit {
            return  properties.getProperty(key);
     }
 
-    public void WritePro(String name, String value) {
+    public void writePro(String name, String value) {
     properties.setProperty(name,value);
     }
 }

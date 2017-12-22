@@ -1,9 +1,9 @@
 package Case;
 
-import Page.MainPage;
 import Pro.MainPagePro;
 import Unit.BaseDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -40,5 +40,11 @@ public class MainPageTest extends CaseBase{
     @Test
     public  void testSerachUpFile(){
         mpp.serachUp();
+    }
+
+
+    @AfterClass
+    public void end(){
+        driver.stop();
     }
 }

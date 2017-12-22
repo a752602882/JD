@@ -36,6 +36,13 @@ public class BasePage {
     }
 
     /**
+     * 查找子元素
+     */
+    public WebElement element(WebElement ele, By by){
+        return ele.findElement(by);
+    }
+
+    /**
      * 点击
      */
     public void click(WebElement element){

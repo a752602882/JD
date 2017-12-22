@@ -48,8 +48,8 @@ public class RegisterTest extends CaseBase {
     }
 
     @AfterClass
-    public  void end(){
-    //    driver.stop();
+    public void end(){
+        driver.stop();
     }
 
     /**
@@ -78,4 +78,5 @@ public class RegisterTest extends CaseBase {
            }
            return users.iterator();
     }
+
 }

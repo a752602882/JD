@@ -1,5 +1,6 @@
 package Unit;
 
+import Module.Quan;
 import org.testng.annotations.Test;
 
 import java.sql.*;
@@ -17,13 +18,14 @@ public class DataBase  {
     /**
      * 链接mysql数据库
      */
-    public static void getMysqlJDBC(String table){
+    public static Iterator<Object[]> getMysqlJDBC(String table){
 
-        String url = "jdbc:mysql://127.0.0.1:3306/jd";
+        String url = "jdbc:mysql://localhost:3306/jd";
         String user = "root";
-        String password = "";
+        String password ="123456";
         Connection conn;
-        List<Object[]> recodes = new ArrayList<>();
+
+        List<Quan> quans = new ArrayList<>();
         try {
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(url,user,password);
@@ -44,13 +46,24 @@ public class DataBase  {
             int cols =rsMetadata.getColumnCount();
              int size = rs.getRow();
             while(rs.next()){
-                String[] fields = new String[cols];
-                //int col= 0;
-                //遍历所有列的数据，并存在字符数组中
-                for (int i=0;i<cols;i++)
-                    fields[i] = rs.getString(i);
 
-                recodes.add(fields);
+               // Quan quan = new Quan();
+                int id = rs.getInt(rs.findColumn("id"));
+                String ticket_name = rs.getString(rs.findColumn("ticket_name"));
+
+                int type = rs.getInt(rs.findColumn("type"));
+                float progress =rs.getFloat(rs.findColumn("progress"));
+                Boolean is_have =rs.getBoolean(rs.findColumn("is_have"));
+                int limit = rs.getInt(rs.findColumn("limit"));
+                int price = rs.getInt(rs.findColumn("price"));
+/*                quan.setId(id);
+                quan.setTicket_name(ticket_name);
+                quan.setType(type);
+                quan.setProgress(progress);
+                quan.setIs_have(is_have);
+                quan.setLimit(limit);
+                quan.setPrice(price);
+                quans.add(quan);*/
             }
 
             rs.close();
@@ -60,6 +73,7 @@ public class DataBase  {
 
             e.printStackTrace();
         }
+        return  listToIterator(quans);
 
 
     }
@@ -79,13 +93,21 @@ public class DataBase  {
 
     /**
      * list<object> 转化Iterator
+     * @param datas
      */
-    public Iterator<Object[]> listToIterator(List<Object[]> list){
-        return list.iterator() ;
+    public static Iterator<Object[]> listToIterator(List<Quan> datas){
+
+        List<Object[]>  list  = new ArrayList<>();
+        for (Object o:datas) {
+            list.add(new Object[]{o});
+
+        }return list.iterator() ;
+
     }
 
     @Test
     public void testDataBase(){
+        //暂时不用数据库实现优惠券的功能
         getMysqlJDBC("quan");
     }
 }
