@@ -19,6 +19,6 @@ log
 
 #不要过滤
 
-!lib/
+!lib/reportng-1.1.5.jar
 
 .idea/workspace.xml
