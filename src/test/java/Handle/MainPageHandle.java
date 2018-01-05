@@ -89,4 +89,6 @@ public class MainPageHandle {
     public  void setSerachFileUp(){
         mainPage.setText(mainPage.getUpSearchfile(),"C:\\Users\\Administrator\\Desktop\\用例思路\\检查用.jpg");
     }
+
+
 }

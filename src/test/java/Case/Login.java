@@ -59,7 +59,7 @@ public class Login extends CaseBase {
             if (handle.equals(handle_old)){
                 continue;
             }
-            driver.JumpOtherPage(handle);
+            driver.jumpOtherPage(handle);
             break;
         }
     }

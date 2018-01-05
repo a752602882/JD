@@ -1,10 +1,13 @@
 package Unit;
 
 import org.openqa.selenium.Cookie;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
+
+import static java.lang.Thread.sleep;
 
 public class BaseDriver  {
 
@@ -50,10 +53,24 @@ public class BaseDriver  {
     /**
      * 跳转页面
      */
-    public  void JumpOtherPage(String handle){
+    public  void jumpOtherPage(String handle){
 
         driver.switchTo().window(handle);
     }
+
+    /**
+     * 返回上个页面
+     */
+    public  void back(){
+        driver.navigate().back();
+    }
+    /**
+     * 关闭窗口
+     */
+    public  void close(){
+        driver.close();
+    }
+
 
 
 
@@ -65,4 +82,18 @@ public class BaseDriver  {
         Set<Cookie> cookies = driver.manage().getCookies();
         return cookies;
     }
+    /**
+     * 滑动到页面底部
+     */
+    public void scrollingToBottom(){
+
+        ((JavascriptExecutor)driver).executeScript("window.scrollTo(0,document.body.scrollHeight)");
+        try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }

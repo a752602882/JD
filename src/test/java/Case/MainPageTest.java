@@ -2,10 +2,13 @@ package Case;
 
 import Pro.MainPagePro;
 import Unit.BaseDriver;
+import org.openqa.selenium.JavascriptExecutor;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+import static java.lang.Thread.sleep;
 
 public class MainPageTest extends CaseBase{
 
@@ -47,4 +50,16 @@ public class MainPageTest extends CaseBase{
     public void end(){
         driver.stop();
     }
+
+    /**
+     * 滑动到页面底部
+     */
+    @Test
+    public void scrollingToBottomOfPage(){
+
+      driver.scrollingToBottom();
+
+    }
+
+
 }
